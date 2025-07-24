@@ -1,0 +1,148 @@
+@font-face{
+	font-family:Vazir;
+	src:url('Vazir-FD.ttf') format("truetype");
+	font-weight:300
+}
+@font-face {
+    font-family: Parastoo-FD;
+    src: url('Parastoo-FD.ttf') format('truetype');
+    font-weight: 300
+}
+@font-face {
+    font-family: Angeles;
+    src: url('Angeles.ttf') format('truetype');
+    font-weight: 300
+}
+
+body {
+  direction: rtl;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+}
+
+
+
+h1 {
+  font-family: "Vazir";
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Vazir";
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  font-family: "Vazir";
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+  font-family: 'Parastoo-FD';
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+button {
+  font-family: "Vazir";
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#addRowBtn {
+  background-color: #007bff;
+}
+
+#calculateBtn {
+  background-color: #28a745;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#result {
+  font-family: 'Parastoo-FD';
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+#tozih {
+  font-family: "Vazir";
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#nog {
+  color: #dc3545;
+}
+i {
+  font-size: 5pc;
+  cursor: alias;
+}
+
+#Me {
+  direction: ltr;
+  font-family: 'Angeles';
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #CE5937;
+}
+@media (max-width: 480px) {
+  #Me span {
+    display: block;
+  }
+}

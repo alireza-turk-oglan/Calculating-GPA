@@ -1,0 +1,78 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="ابزار محاسبه آنلاین معدل - به راحتی میتوانید معدل خود را قبل دریافت کارنامه محاسبه کنید"
+    />
+    <meta name="keywords" content="محاسبه آنلاین معدل" />
+    <meta name="author" content="Alireza Hosseinzadeh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محاسبه معدل</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="icon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>محاسبه معدل</h1>
+      <p>
+        نام درس، نمره‌ای که گرفته‌اید و تعداد واحد آن درس را وارد کنید و سپس روی
+        دکمه محاسبه کلیک کنید
+      </p>
+      <table id="gradesTable">
+        <thead>
+          <tr>
+            <th>نام درس</th>
+            <th>نمره</th>
+            <th>واحد</th>
+            <th>حذف</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" placeholder="نام درس" /></td>
+            <td><input type="number" placeholder="نمره" /></td>
+            <td><input type="number" placeholder="واحد" /></td>
+            <td><button class="delete-btn">حذف</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="addRowBtn">اضافه کردن سطر</button>
+      <button id="calculateBtn">محاسبه</button>
+      <div id="result"></div>
+      <hr />
+      <div id="tozih">
+        <h2>
+          ابزار محاسبه معدل ، یک برنامه کاربردی و مفید برای بدست آوردن معدل شما
+          می‌باشد.
+        </h2>
+        <h3>
+          برای استفاده از این ابزار در هر سطر نام درس ، نمره و تعداد واحد را
+          وارد کنید و در صورت نیاز با گزینه ­« اضافه کردن سطر » سطر اضافه کنید.
+          شما میتوانید با گزینه­ی « حذف » هر یک از سطر ها که مورد نیاز نبود را
+          حذف کنید. در آخر پس از پر کردن قسمت های مورد نیاز با فشردن گزینه­ی «
+          محاسبه » به صورت لحظه­ای معدل خود را بدست آورید.
+        </h3>
+        <h3 id="nog">
+          یکی از نکات حائذ اهمیت در کار با ابزار محاسبه معدل این است که اعداد
+          اعشاری را با نقطه ( . ) از هم جدا کنید و از ( / ) استفاده نکنید.
+        </h3>
+        <hr />
+        <i id="telegram" class="ri-telegram-fill"></i>
+        <i id="instagram" class="ri-instagram-line"></i>
+        <div id="Me">
+          Powered By :
+          <span>Alireza Hosseinzadeh</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
