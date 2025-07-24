@@ -4,14 +4,8 @@
  - شما میتوانید با گزینه­ی « حذف » هر یک از سطر ها که مورد نیاز نبود را حذف کنید.
  - در آخر پس از پر کردن قسمت های مورد نیاز با فشردن گزینه­ی « محاسبه » به صورت لحظه­ای معدل خود را بدست آورید.
    # آدرس سایت
-<a href="https://alireza-turk-oglan.github.io/Calculating-GPA/" target="_blank" style="
-  display: inline-block;
-  background-color: #0078d7;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  ">
-  ورود به سایت
-</a>
+<p align="center">
+  <a href="https://alireza-turk-oglan.github.io/Calculating-GPA/" target="_blank">
+    <img src="https://img.shields.io/badge/ورود%20به%20سایت%20محاسبه%20معدل-0078d7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="ورود به سایت محاسبه معدل"/>
+  </a>
+</p>
